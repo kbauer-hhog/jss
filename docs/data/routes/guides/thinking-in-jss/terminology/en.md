@@ -48,7 +48,7 @@ From Sitecore Content Authoring Documentation - [An overview of how authors edit
 
 ---
 
-## Presentations Details
+## Presentation Details
 ![](/assets/img/guides/terminology-presentation-details.png =70%x*)
 
 ---
