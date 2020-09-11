@@ -44,7 +44,7 @@ The manifest API is not a complete replica of everything that can be done with S
 ### When to use
 The embedded app can have front-end devs who have only trained on JSS documentation driving the JSS app code-first. And the reasoning is that in this scenario, whatever page and datasource templates the front-end devs create won’t need to be scaled, so it’s ok if they don’t follow traditional Sitecore conventions. This approach would probably be ok for single-site apps too for the reason reasoning, though I haven’t seen this in practice since most clients have multi-site needs.
 
-### Reducing risk in log-term Code-First development
+### Reducing risk in long-term Code-First development
 Sometimes teams are requires to stay in Code-First for the majority of development time. Here is what your team can do to reduce the risk in such scenarios.
 
 - As part of front-end developer on boarding, front-end developers should get a chance to poke around Experience Editor. They need to understand what components, fields, rendering parameters, and placeholders are from the author’s POV. Also, they need to understand that sometimes components need to be rendered in special ways for Experience Editor (ex, a modal would be hidden on page load normally, but visible on page load in EE so that the content can be edited).
@@ -76,7 +76,7 @@ There are standard “Sitecore things” that front-end developers don’t deal 
 
 These are things that front-end devs don’t typically have experience with, and some of these, like creating branch templates and editing layout on standard values, aren’t even possible from code-first.
 
-JSS import puts everything into `Project` - the point is to import everything into a reasonable starting point. However, once you switch to Sitecore-first, Sitecore devs are free to reogranize templates and components to be more Helix oriented.
+JSS import puts everything into `Project` - the point is to import everything into a reasonable starting point. However, once you switch to Sitecore-first, Sitecore devs are free to reorganize templates and components to be more Helix oriented.
 
 So to reiterate, the recommendation is that if you’re using JSS for a multi-site project, include Sitecore developers into the team to handle the information architecture, and go Sitecore-first as soon as possible so that front-end devs are only responsible for the presentation code.
 
